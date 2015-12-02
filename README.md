@@ -49,7 +49,7 @@ repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
 
 mkdir .repo/local_manifests
 
-curl https://raw.github.com/PixNDom/android_manifest_lenovo-Tab2A710/master/A710F_manifest.xml > .repo/local_manifests/A710F_manifest.xml
+curl https://raw.github.com/PixNDom/android_manifest_lenovo-Tab2A710/cm-12/A710F_manifest.xml > .repo/local_manifests/A710F_manifest.xml
 
 repo sync
 
