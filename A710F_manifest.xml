@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- declare list of repositories to fetch from -->
+  <remote name="A710F"      fetch="https://github.com/PixNDom" />
+ 
+  <!-- list packages to remove from standard build    -->
+  
+  <!-- declare packages replacements  -->
+  
+  <!-- declare additional packages to build -->
+  
+	
+  <!-- And finally checkout components specifics to Lenovo Tab2 A7-10F -->
+  <project path="device/lenovo/Tab2A710F" name="android_device_lenovo_Tab2A710F" remote="A710F" revision="cm-12"/>
+  <project path="kernel/lenovo/Tab2A710F" name="android_kernel_lenovo_Tab2A710F" remote="A710F" revision="cm-12"/>
+  <project path="vendor/lenovo/Tab2A710F" name="android_vendor_lenovo_Tab2A710F" remote="A710F" revision="cm-12"/>
+
+</manifest>
