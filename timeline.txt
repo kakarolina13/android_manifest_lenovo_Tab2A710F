@@ -14,3 +14,5 @@ Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre
     pour le flash, les valeurs de référence sont dans ro.product.device etc...  sont dans le default.prop du recovery.
     -> si on ne trouve pas de moyen de garder le tiret, il suffira de refaire une version de TWRP avec le nom sans le tiret.
 
+    Doume : OK, on verra quand on en sera à finaliser le TWRP
+    
