@@ -61,7 +61,7 @@ Finally build the rom with these commands:
 
  source build/envsetup.sh
 
- brunch a710f
+ brunch Tab2A710F
 
 
 
