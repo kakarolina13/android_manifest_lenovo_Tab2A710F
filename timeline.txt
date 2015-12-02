@@ -1,0 +1,11 @@
+Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre développeurs
+
+- 02/12/2015, Doume : J'ai regardé le fichier 'updater-script' contenu dans le fichier zip d'upgrade en version 54
+    Il verifie que le nom de device est 
+                 getprop("ro.product.device") == "Tab2A7-10F" || abort("This package is for \"Tab2A7-10F\" devices; this is a \"" + getprop("ro.product.device") + "\".");
+    Donc si on génère une image sans le tiret , notre fichier updater.script ne trouvera pas égalité et refusera
+        le flash
+    TODO : Voir comment un peut garder le device name conforme aux ROMs de Lenovo
+    
+    
+                 
