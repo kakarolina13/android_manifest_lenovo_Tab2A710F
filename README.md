@@ -3,7 +3,7 @@ Manifest and Howto , to build custom ROM for Tablet Lenovo A7-10F
 
 An attempt to build custom ROM for Lenovo A7-10F tablet (In progress...)
 
-omni branch is for Omnirom Lollipop 5.
+master branch is for Omnirom Lollipop 5.
 
 cm-12 branch is for CyanogenMod version 12.x (Lollipop)
 
@@ -49,7 +49,7 @@ repo init -u git://github.com/omnirom/android.git -b android-5.0
 
 mkdir .repo/local_manifests
 
-curl https://raw.github.com/PixNDom/android_manifest_lenovo-Tab2A710/cm-12/A710F_manifest.xml > .repo/local_manifests/A710F_manifest.xml
+curl https://raw.github.com/PixNDom/android_manifest_lenovo-Tab2A710/master/A710F_manifest.xml > .repo/local_manifests/A710F_manifest.xml
 
 repo sync
 
