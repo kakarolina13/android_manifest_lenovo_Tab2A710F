@@ -11,7 +11,7 @@
   
 	
   <!-- And finally checkout components specifics to Lenovo Tab2 A7-10F -->
-  <project path="device/lenovo/Tab2A710F" name="android_device_lenovo_Tab2A710F" remote="A710F" revision="master"/>
+  <project path="device/lenovo/Tab2A710F" name="android_device_lenovo_Tab2A710F" remote="A710F" revision="omnirom"/>
   <project path="kernel/lenovo/Tab2A710F" name="android_kernel_lenovo_Tab2A710F" remote="A710F" revision="master"/>
   <project path="vendor/lenovo/Tab2A710F" name="android_vendor_lenovo_Tab2A710F" remote="A710F" revision="master"/>
 
