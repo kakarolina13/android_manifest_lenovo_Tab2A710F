@@ -7,5 +7,7 @@ Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre
         le flash
     TODO : Voir comment un peut garder le device name conforme aux ROMs de Lenovo
     
-    
+    Ajouté recovery directory ( contient les composants nécessaires pour le build du recovery.img ) 
+    Ajouté ramdisk directory ( contient les composants nécessaires pour le build du ramdisk.img ) 
+     
                  
