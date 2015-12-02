@@ -16,4 +16,5 @@ Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre
 
     Doume : OK, on verra quand on en sera à finaliser le TWRP
     
-    Pix : ou modifier le script de la rom pour autoriser plus de noms de device. D'ailleurs il doit y avoir une config quelque part pour le préciser
+    Pix : ou modifier le script de la rom pour autoriser plus de noms de device. D'ailleurs il doit y avoir une config quelque.
+    part pour le préciser.
