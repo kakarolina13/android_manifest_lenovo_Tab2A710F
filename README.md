@@ -3,7 +3,7 @@ Manifest and Howto , to build custom ROM for Tablet Lenovo A7-10F
 
 An attempt to build custom ROM for Lenovo A7-10F tablet (In progress...)
 
-omni branch is for Omnirom Lollipop 5.
+master branch is for Omnirom Lollipop 5.
 
 cm-12 branch is for CyanogenMod version 12.x (Lollipop)
 
