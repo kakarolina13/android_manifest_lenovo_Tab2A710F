@@ -42,10 +42,10 @@ mkdir YOUR_ WORKING_DIR
 
 cd YOUR_WORKING_DIR
 
-example for omnirom 5.0 :
--------------------------
+example for cm-12.1 :
+---------------------
 
-repo init -u git://github.com/omnirom/android.git -b android-5.0
+repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1
 
 mkdir .repo/local_manifests
 
