@@ -21,3 +21,6 @@ Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre
 
     Doume : Je pense que le 'updater-script' de la ROM est auto-généré par les outils de construction des images (généralement en python) , outils inclus dans les repositories CM ou Omni
     
+    03/12/2015 19h45 : Compilation Omnirom complète :
+        Package complete: /storage2/lollipop/out/target/product/Tab2A710F/omni-5.0.2-20151203-Tab2A710F-HOMEMADE.zip
+        Reste à regarder un peu son contenu
