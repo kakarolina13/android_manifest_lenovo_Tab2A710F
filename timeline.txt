@@ -18,3 +18,6 @@ Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre
     
     Pix : ou modifier le script de la rom pour autoriser plus de noms de device. D'ailleurs il doit y avoir une config quelque.
     part pour le préciser.
+
+    Doume : Je pense que le 'updater-script' de la ROM est auto-généré par les outils de construction des images (généralement en python) , outils inclus dans les repositories CM ou Omni
+    
