@@ -30,4 +30,4 @@ Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre
         Note : se compile aussi avec Omnirom 6.0 (Marshmallow)
                Je propose qu'on forke une branche 'omni-6.0' seulement dès que la branche actuelle sera OK pour 5.1
                Sinon il faudra modifier les deux branches à chaque modif, ce qui n'est pas très fun, et inutile
-               
+    Pix : j'approuve ! Idem pour la branche cm-12.
