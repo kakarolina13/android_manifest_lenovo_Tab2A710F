@@ -24,3 +24,10 @@ Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre
     03/12/2015 19h45 : Compilation Omnirom complète :
         Package complete: /storage2/lollipop/out/target/product/Tab2A710F/omni-5.0.2-20151203-Tab2A710F-HOMEMADE.zip
         Reste à regarder un peu son contenu
+
+    Doume 07/12/2015 13h00 : Nouveau repository Omnirom 5.1 chez moi
+        Package complete: /storage2/lollipop_5.1/out/target/product/Tab2A710F/omni-5.1.1-20151207-Tab2A710F-PixNDom.zip
+        Note : se compile aussi avec Omnirom 6.0 (Marshmallow)
+               Je propose qu'on forke une branche 'omni-6.0' seulement dès que la branche actuelle sera OK pour 5.1
+               Sinon il faudra modifier les deux branches à chaque modif, ce qui n'est pas très fun, et inutile
+               
