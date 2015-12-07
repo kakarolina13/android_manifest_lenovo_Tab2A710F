@@ -1,0 +1,33 @@
+Ce fichier texte peut être utilisé pour échanger des infos ou remarques entre développeurs
+
+- 02/12/2015, Doume : J'ai regardé le fichier 'updater-script' contenu dans le fichier zip d'upgrade en version 54
+    Il verifie que le nom de device est 
+                 getprop("ro.product.device") == "Tab2A7-10F" || abort("This package is for \"Tab2A7-10F\" devices; this is a \"" + getprop("ro.product.device") + "\".");
+    Donc si on génère une image sans le tiret , notre fichier updater.script ne trouvera pas égalité et refusera
+        le flash
+    TODO : Voir comment un peut garder le device name conforme aux ROMs de Lenovo
+
+    Ajouté recovery directory ( contient les composants nécessaires pour le build du recovery.img ) 
+    Ajouté ramdisk directory ( contient les composants nécessaires pour le build du ramdisk.img ) 
+     
+- 02/12/2015, Pix106 : 
+    pour le flash, les valeurs de référence sont dans ro.product.device etc...  sont dans le default.prop du recovery.
+    -> si on ne trouve pas de moyen de garder le tiret, il suffira de refaire une version de TWRP avec le nom sans le tiret.
+
+    Doume : OK, on verra quand on en sera à finaliser le TWRP
+    
+    Pix : ou modifier le script de la rom pour autoriser plus de noms de device. D'ailleurs il doit y avoir une config quelque.
+    part pour le préciser.
+
+    Doume : Je pense que le 'updater-script' de la ROM est auto-généré par les outils de construction des images (généralement en python) , outils inclus dans les repositories CM ou Omni
+    
+    03/12/2015 19h45 : Compilation Omnirom complète :
+        Package complete: /storage2/lollipop/out/target/product/Tab2A710F/omni-5.0.2-20151203-Tab2A710F-HOMEMADE.zip
+        Reste à regarder un peu son contenu
+
+    Doume 07/12/2015 13h00 : Nouveau repository Omnirom 5.1 chez moi
+        Package complete: /storage2/lollipop_5.1/out/target/product/Tab2A710F/omni-5.1.1-20151207-Tab2A710F-PixNDom.zip
+        Note : se compile aussi avec Omnirom 6.0 (Marshmallow)
+               Je propose qu'on forke une branche 'omni-6.0' seulement dès que la branche actuelle sera OK pour 5.1
+               Sinon il faudra modifier les deux branches à chaque modif, ce qui n'est pas très fun, et inutile
+    Pix : j'approuve ! Idem pour la branche cm-12.
