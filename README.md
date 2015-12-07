@@ -45,7 +45,7 @@ cd YOUR_WORKING_DIR
 example for omnirom 5.0 :
 -------------------------
 
-repo init -u git://github.com/omnirom/android.git -b android-5.0
+repo init -u git://github.com/omnirom/android.git -b android-5.1
 
 mkdir .repo/local_manifests
 
@@ -61,9 +61,9 @@ Finally build the rom with these commands:
 
  source build/envsetup.sh
 
- brunch a710f
+ brunch Tab2A710F
 
 
 
-If all goes well this will create a zip file into 'out' folder, that can be flashed on the tablet!
+If all goes well this will create a zip file into 'out' folder, that can be flashed on the tablet , using CWM or TWRP !
 
