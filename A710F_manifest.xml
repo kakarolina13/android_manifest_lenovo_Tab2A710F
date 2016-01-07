@@ -4,10 +4,12 @@
   <remote name="A710F"      fetch="https://github.com/PixNDom" />
  
   <!-- list packages to remove from standard build    -->
-  <remove-project name="android_external_sepolicy" />	<!-- Use our own version of sepolicy -->
-
+  <remove-project name="android_external_sepolicy" />
+  <remove-project name="android_frameworks_native" /> 
+ 
   <!-- declare packages replacements  -->
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="A710F" revision="android-5.1"  /> 
+ <project path="external/sepolicy" name="android_external_sepolicy" remote="A710F" revision="android-5.1"  /> 
+ <project path="frameworks/native" name="android_frameworks_native" remote="A710F" revision="android-5.1"  />
 
   <!-- declare additional packages to build -->
   
