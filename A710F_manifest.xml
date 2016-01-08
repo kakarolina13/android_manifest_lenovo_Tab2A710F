@@ -6,10 +6,12 @@
   <!-- list packages to remove from standard build    -->
   <remove-project name="android_external_sepolicy" />
   <remove-project name="android_frameworks_native" /> 
+  <remove-project name="android_system_core" /> 
  
   <!-- declare packages replacements  -->
  <project path="external/sepolicy" name="android_external_sepolicy" remote="A710F" revision="android-5.1"  /> 
  <project path="frameworks/native" name="android_frameworks_native" remote="A710F" revision="android-5.1"  />
+ <project path="system/core"       name="android_system_core"       remote="A710F" revision="android-5.1" />
 
   <!-- declare additional packages to build -->
   
