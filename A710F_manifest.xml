@@ -2,6 +2,7 @@
 <manifest>
   <!-- declare list of repositories to fetch from -->
   <remote name="A710F"      fetch="https://github.com/PixNDom" />
+  <remote name="AOSP"       fetch="https://android.googlesource.com/kernel" />
 
   <!-- list packages to remove from standard build    -->
   <remove-project name="android_external_sepolicy" />
@@ -16,7 +17,8 @@
 	
   <!-- And finally checkout components specifics to Lenovo Tab2 A7-10F -->
   <project path="device/lenovo/Tab2A710F" name="android_device_lenovo_Tab2A710F" remote="A710F" revision="omnirom"/>
-  <project path="kernel/lenovo/Tab2A710F" name="android_kernel_lenovo_Tab2A710F" remote="A710F" revision="cm-12"/>
+ <!-- <project path="kernel/lenovo/Tab2A710F" name="android_kernel_lenovo_Tab2A710F" remote="A710F" revision="cm-12"/> -->
+  <project path="kernel/mediatek"         name="android_kernel_mediatek"         remote="A710F"  revision="master" />
   <project path="vendor/lenovo/Tab2A710F" name="android_vendor_lenovo_Tab2A710F" remote="A710F" revision="cm-12"/>
   <project path="mediatek/hardware"       name="android_hardware_mediatek"       remote="A710F" revision="master"  />
   <project path="mediatek/frameworks"     name="android_mediatek_frameworks"     remote="A710F" revision="master"  />
